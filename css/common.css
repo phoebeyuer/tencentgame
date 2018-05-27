@@ -1,0 +1,152 @@
+
+/* 公共头样式 */
+
+.public-header{
+	height:96px;
+	background:#eaeaea
+}
+
+.header-content{
+	position:relative;
+	margin:0 auto;
+	height:96px;
+	width:962px;
+}
+
+.public-header-logo{
+	float:left;
+	margin-top:21px;
+	height:47px;
+	width:300px;
+	overflow:hidden;
+	background:url("../images/header-logo.png")
+}
+
+.public-header-nav{
+	float:right;
+	margin-top:12px;
+}
+
+.header-nav1{
+	float:right;
+	font-size:14px;
+	color:#c0bfbd;
+}
+
+.header-nav2{
+	margin-top:24px;
+	font-weight:bold;
+	font-size:14px;
+	line-height:48px;
+}
+
+.header-nav2 img{
+	display:inline;
+	vertical-align:middle;
+	width:19px;
+	height:19px;
+	overflow:hidden;
+}
+
+/* 公共底部样式 */
+
+.public-footer{
+	height:132px;
+	background:#ffffff;
+}
+
+.footer-line{
+	/* margin:0 auto; */
+	position:relative;
+	left:50%;
+	margin-left:-481px;
+	width:962px;
+	margin-top:52px;
+	border-top:2px solid #eef1fa;
+}
+
+.footer-text{
+	/* display:table; */
+	/* display:inline; */
+	/* text-align:center; */
+	margin:0 auto;
+	height:78px;
+	width:962px;
+	font-size:14px;
+	color:#b5b6b9;
+}
+
+.footer-text p{
+	display:table;
+	margin:0 auto;
+}
+
+.footer-ft{
+	padding-top:20px;
+}
+
+.footer-bq{
+	margin-top:8px;
+	line-height:16px;
+}
+
+
+/* 悬浮二维码样式 */
+.hide{
+	display:none;
+}
+
+
+.QR-code{
+	position:fixed;
+	width:172px;
+	top:224px;
+	left:0px;
+	z-index: 100;
+}
+
+.close-btn{
+	position:fixed;
+	top:264px;
+	left:148px;
+	width:16px;
+	height:16px;
+	font-size:16px;
+	font-weight:bold;
+	border:2px solid white;
+	border-radius:16px;
+	text-align:center;
+	line-height:16px;
+	cursor:pointer;
+	z-index:101;
+}
+
+.close-btn a{
+	margin:0 auto;
+}
+
+
+.QR-code-left{
+	float:left;
+	width:148px;
+}
+
+.QR-code-left img{
+	width:148px;
+}
+
+.QR-code-right{
+	float:right;
+	margin-top:38px;
+}
+
+.QR-code-right img{
+	width:24px;
+	height:215px;
+}
+
+
+
+
+
+

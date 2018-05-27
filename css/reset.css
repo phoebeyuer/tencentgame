@@ -1,0 +1,30 @@
+/* 清除各标签默认的边界和填充值 */
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,dd,dt,dl,div,input,form,a,p,textarea{
+	margin:0;
+	padding:0;
+	font-family="Helvetica Neue",Helvetica,Arial,sans=serif;
+}
+
+/* 清除列表标签默认的圆点样式 */
+ul,ol,li{
+	list-style:none;
+	display:block;
+}
+
+/* 清除a标签默认的下划线 */
+a{
+	text-decoration:none;
+	/* display:block; */
+}
+
+/* 清除浮动！重要！ */
+.clearfloat{
+	zoom:1;           /*仅在IE下起作用*/
+}
+.clearfloat:after{         /*在元素后添加伪类以清除浮动*/
+	display:block;
+	clear:both;            /*元素左右均不允许出现浮动*/
+	content:"";
+	visibility:hidden;     /*隐藏空内容*/
+	height:0;
+}
